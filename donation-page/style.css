@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: #f0dff3;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 4%;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  background-color: #f7b2b2;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.brand-logo {
+  height: 180px;
+  padding-top: 10px;
+}
+
+.nav-links {
+  margin-top: 10px;
+  display: flex;
+  list-style: none;
+}
+
+.nav-items a {
+  text-decoration: none;
+  margin-left: 20px;
+  text-transform: capitalize;
+  color: #ffffff;
+  opacity: 0.9;
+  font-weight: 900px;
+}
+
+.nav-items:hover a {
+  color: black;
+}
+
+.donate-btn {
+  margin-left: auto;
+  background: #f7b2b2;
+  height: 30px;
+  padding: 0 10px;
+  color: #79074d;
+  border-radius: 20px;
+  border-color: #79074d;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.donate-btn:hover {
+  background: #79074d;
+  color: white;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #79074d;
+}
+
+a:hover {
+  color: white;
+}
+
+.main-content {
+  position: absolute;
+  margin: 150px 55px;
+  width: 92%;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #ffd6f1 80%, #ffb6e7);
+}
+
+.main-img {
+  width: 800px;
+  min-height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.content {
+  height: 100%;
+  margin: 10px;
+  padding: 0 10px;
+}
+
+.text {
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+}
+
+em {
+  font-family: cursive;
+  color: rgb(231, 83, 132);
+  font-style: italic;
+}
+
+footer {
+  top: 0;
+  left: 0;
+  padding: 0 4%;
+  position: relative;
+  text-align: center;
+  margin: 5px 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  color: #aaa;
+}
+
+.btn {
+  margin: 200px;
+}
+
+.vision {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 50px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  background-image: url("images/bg.jpeg");
+  background-position: center;
+}
+
+.vision-heading {
+  padding: 20px;
+  color: #f035b2;
+}
+
+.vision-text {
+  padding: 10px;
+  color: white;
+}
+
+.about {
+  margin: auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-self: center;
+  align-items: center;
+}
+
+.about-content {
+  margin: 10px;
+  padding: 10px;
+  height: 550px;
+  background: rgb(253, 198, 235);
+  text-align: center;
+}
+
+.about-heading {
+  color: #000000;
+}
+
+.about-img {
+  border-radius: 40px;
+}
+
+.about-text {
+  padding-top: 10px;
+  color: rgb(3, 3, 3);
+  font-size: 16px;
+  text-align: justify;
+  line-height: 20px;
+}
+
+.contact-form {
+  margin: 150px auto 50px auto;
+  width: 50%;
+  height: 500px;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  background: rgba(240, 140, 137, 0.253);
+}
+
+.form {
+  text-align: center;
+}
+
+.form-heading {
+  padding: 10px;
+  margin: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 5px;
+  margin: 5px;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  padding: 10px;
+  width: 500px;
+  box-sizing: border-box;
+  background: none;
+  border-radius: 5px;
+  border: 2px solid rgb(104, 103, 103);
+}
+
+textarea {
+  vertical-align: top;
+  height: 150px;
+}
+
+.submit-btn {
+  margin: 10px;
+  padding: 10px;
+  background: rgb(245, 86, 86);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
